@@ -1,0 +1,201 @@
+/* Background Color */
+html {
+    background-color:#93E9BE
+}
+/*End Background Color */
+
+/* Font Type */
+body {
+    font-family: "Comic Sans MS";
+}
+/* End Font Type */
+
+/* Image */
+img {
+    max-width: 95%;
+    height: auto;
+}
+/* End Image */
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+}
+.image-banner img {
+    display: block;
+}
+.banner-caption {
+    max-width: 95%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.4);
+}
+.banner-caption p {
+    color: rgb(200, 200, 200);
+}
+/* End Banner Overlay */
+
+/*Form Styles */
+form {
+    max-width: 95%;
+    background-color: #ECECEC;
+    padding-top: 20px;
+}
+
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input[type="email"], input[type="password"], select {
+    width:90%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height:40px;
+    font-family: "Comic Sans MS";
+    font-size: 100%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border:1px solid #CDCDCD;
+}
+input {
+    font-family: "Comic Sans MS";
+    font-size: 95%;
+}
+input[type="email"]:focus, input[type="password"]:focus {
+    border: 1px #869960;
+}
+input[type="submit"] {
+    width:100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #869960;
+    color: #fff;
+    padding: 10px 0;
+    border: 1px solid #798A79;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border: 1px solid #E5E9DC;
+    background-color: #798A79;
+}
+/* End Form Styles */
+
+/* Table Styles */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 95%;
+}
+table th {
+    text-align: left;
+    background-color: #869960;
+    color: #FFF;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+table th, table td {
+    border: 1px solid #869960;
+    padding: 10px;
+}
+table tbody tr:nth-child(even) td{
+    background-color:#E5E9DC;
+}
+table th:nth-child(2), table th:nth-child(3),
+table td:nth-child(2), table td:nth-child(3) {
+    text-align: center;
+}
+.col-item {
+    width: 55%
+}
+.col-p, .col-q {
+    width: 22.5%;
+}
+/* End Table Styles */
+h1 {
+    font-size: 165%;
+    font-weight:bold;
+}
+p {
+    color: green;
+}
+p span {
+    color: blue;
+}
+header h1 {
+    color: black;
+    text-align: center;
+    font-size: 180%;
+    margin: 0;
+    font-weight: normal;
+}
+.main h2 {
+    color: goldenrod;
+}
+p {
+    color: grey;
+}
+.color {
+    background-color:greenyellow;
+}
+aside {
+    background-color: #BCB88A;
+}
+/* Main Body Container */
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+/* End Main Body Container */
+.content-area {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.main {
+    width: 70%;
+    float: left;
+}
+.support {
+    width: 30%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.fix {
+    clear: both;
+}
+/* Site Navigation */
+.site-nav li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav {
+    margin-top: 20px;
+}
+.site-nav a {
+    text-decoration: none;
+    color: #617140;
+    padding: 10px 20px;
+    border: 3px solid #E5E9DC;
+    display: block;
+    border-bottom: none;
+}
+.site-nav a:hover {
+    background-color:#E5E9DC;
+}
+/* End Site Navigation */
